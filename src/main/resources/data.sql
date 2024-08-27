@@ -1,10 +1,10 @@
--- drop table review;
--- drop table menu;
--- drop table restaurant;
+drop table review;
+drop table menu;
+drop table restaurant;
 
--- drop sequence restaurant_seq;
--- drop sequence menu_seq;
--- drop sequence review_seq;
+drop sequence restaurant_seq;
+drop sequence menu_seq;
+drop sequence review_seq;
 
 create table restaurant (
         id number primary key,
