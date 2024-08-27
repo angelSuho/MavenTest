@@ -10,7 +10,7 @@ COPY target/SpringTest-0.0.1-SNAPSHOT.jar /app/
 
 # 컨테이너가 시작될 때 실행될 명령어
 # Java 애플리케이션 실행
-CMD ["java", "-jar", "your-application.jar"]
+CMD ["java", "-jar", "SpringTest-0.0.1-SNAPSHOT.jar"]
 
 # 컨테이너 내부에서 제공될 포트 번호 지정 (애플리케이션이 사용하는 포트)
 EXPOSE 8080
